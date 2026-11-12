@@ -358,6 +358,9 @@ To setup an entry for auto open perform the following steps:
   c. Prepend an exclamation mark (`!`) to explicitly exclude a device.
   d. Examples: `LAPTOP, DESKTOP` will auto open on a computer named LAPTOP or DESKTOP. `!LAPTOP` will auto open on all devices *not* named LAPTOP.
 
+.Skipping automatic opening
+To skip specific entries from automatically opening. The entry can be kept in the `AutoOpen` folder for archival purposes. The entry expired property value should be set at a date and time in the past (results in entry state `is:expired`).
+
 .Auto open IfDevice example
 image::autoopen_ifdevice.png[]
 
